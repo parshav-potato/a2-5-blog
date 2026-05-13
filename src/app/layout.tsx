@@ -39,14 +39,6 @@ export default function RootLayout({
         <main className="flex-1 max-w-2xl mx-auto px-5 py-8 w-full">
           {children}
         </main>
-
-        <footer className="py-6 mt-8 border-t border-[var(--color-border)]">
-          <div className="max-w-2xl mx-auto px-5">
-            <p className="text-xs text-[var(--color-muted)]">
-              built with markdown & git
-            </p>
-          </div>
-        </footer>
       </body>
     </html>
   );

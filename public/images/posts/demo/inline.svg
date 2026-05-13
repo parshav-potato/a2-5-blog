@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#434c5e"/>
+  <text x="400" y="140" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#d8dee9">This is an inline image.</text>
+  <text x="400" y="175" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7b88a1">Place your images in public/images/posts/your-slug/</text>
+</svg>
