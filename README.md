@@ -4,24 +4,6 @@ Accidental conversations with residents, semi-residents, and the occasional gues
 
 A markdown-powered blog built with Next.js. Posts live as `.md` files in the repo — publish by committing.
 
-## Stack
-
-- **Next.js 16** (App Router) + **TypeScript**
-- **Tailwind CSS 4** — Nord color palette
-- **Shiki** — syntax highlighting (nord theme)
-- **JetBrains Mono** — code font via `next/font`
-- Statically generated at build time (SSG)
-- Zero-config **Vercel** deployment
-
-## Getting started
-
-```bash
-npm install
-npm run dev
-```
-
-Open http://localhost:3000.
-
 ## Writing a post
 
 ### 1. Create a markdown file
