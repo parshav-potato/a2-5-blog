@@ -9,7 +9,7 @@ export default function Home() {
       <section className="mb-12">
         <h1>A2/5</h1>
         <p className="text-[var(--color-muted)]">
-          Accidental conversations with residents, semi-residents, and the occasional guest of A2/5 about what they&apos;ve been tinkering with in the world of software, data science, literature, cinema, and much more.
+          Accidental conversations with residents and semi-residents of A2/5 about what they&apos;ve been tinkering with in the world of software, data science, literature, cinema, and much more.
         </p>
       </section>
 

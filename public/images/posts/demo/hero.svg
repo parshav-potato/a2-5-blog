@@ -1,5 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#3b4252"/>
-  <text x="600" y="290" text-anchor="middle" font-family="sans-serif" font-size="48" font-weight="600" fill="#88c0d0">A2/5</text>
-  <text x="600" y="360" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#d8dee9">Posting Guide</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2e3440"/>
+      <stop offset="100%" stop-color="#3b4252"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#88c0d0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#88c0d0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- grid lines -->
+  <g stroke="#434c5e" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- accent glow band -->
+  <rect x="0" y="200" width="1200" height="230" fill="url(#glow)"/>
+
+  <!-- decorative accent bar -->
+  <rect x="0" y="0" width="1200" height="4" fill="#88c0d0" opacity="0.7"/>
+
+  <!-- left accent block -->
+  <rect x="80" y="260" width="4" height="110" rx="2" fill="#88c0d0" opacity="0.8"/>
+
+  <!-- code-like decorative lines left -->
+  <rect x="100" y="268" width="160" height="10" rx="3" fill="#4c566a"/>
+  <rect x="100" y="286" width="220" height="10" rx="3" fill="#4c566a"/>
+  <rect x="100" y="304" width="140" height="10" rx="3" fill="#88c0d0" opacity="0.4"/>
+  <rect x="100" y="322" width="190" height="10" rx="3" fill="#4c566a"/>
+  <rect x="100" y="340" width="110" height="10" rx="3" fill="#4c566a"/>
+
+  <!-- main title -->
+  <text x="600" y="282" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="64" font-weight="700" letter-spacing="-1" fill="#eceff4">A2/5</text>
+  <text x="600" y="340" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="24" font-weight="400" fill="#88c0d0" letter-spacing="2">Posting Guide</text>
+
+  <!-- decorative dots -->
+  <circle cx="560" cy="380" r="3" fill="#88c0d0" opacity="0.5"/>
+  <circle cx="580" cy="380" r="3" fill="#88c0d0" opacity="0.3"/>
+  <circle cx="600" cy="380" r="3" fill="#88c0d0" opacity="0.5"/>
+  <circle cx="620" cy="380" r="3" fill="#88c0d0" opacity="0.3"/>
+  <circle cx="640" cy="380" r="3" fill="#88c0d0" opacity="0.5"/>
+
+  <!-- code-like decorative lines right -->
+  <rect x="940" y="268" width="180" height="10" rx="3" fill="#4c566a"/>
+  <rect x="940" y="286" width="130" height="10" rx="3" fill="#4c566a"/>
+  <rect x="940" y="304" width="200" height="10" rx="3" fill="#a3be8c" opacity="0.4"/>
+  <rect x="940" y="322" width="160" height="10" rx="3" fill="#4c566a"/>
+  <rect x="940" y="340" width="100" height="10" rx="3" fill="#4c566a"/>
+
+  <!-- bottom bar -->
+  <rect x="0" y="626" width="1200" height="4" fill="#4c566a" opacity="0.5"/>
 </svg>

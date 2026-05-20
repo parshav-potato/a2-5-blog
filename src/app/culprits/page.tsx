@@ -8,34 +8,29 @@ export const metadata: Metadata = {
 interface Culprit {
   name: string;
   aka?: string;
-  role: string;
+  bio?: string;
 }
 
 const culprits: Culprit[] = [
   {
     name: "Parshav Jain",
-    role: "Resident",
+    bio: "Bhel enthusiast.",
   },
   {
     name: "Aditya Shiva Sharma",
     aka: "ASS",
-    role: "Resident",
   },
   {
     name: "Dhruba Chatterjee",
-    role: "Resident",
   },
   {
     name: "Pooja Kondekar",
-    role: "Semi-resident",
   },
   {
     name: "Akhilesh Choudhary",
-    role: "Semi-resident",
   },
   {
     name: "Shabbir Patheria",
-    role: "Guest",
   },
 ];
 
@@ -61,9 +56,11 @@ export default function CulpritsPage() {
                 aka {person.aka}
               </span>
             )}
-            <p className="text-[var(--color-muted)] text-sm !mb-0 mt-0.5">
-              {person.role}
-            </p>
+            {person.bio && (
+              <p className="text-[var(--color-muted)] text-sm !mb-0 mt-0.5">
+                {person.bio}
+              </p>
+            )}
           </li>
         ))}
       </ul>

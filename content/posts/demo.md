@@ -4,7 +4,7 @@ date: "2026-05-13"
 summary: "Everything you can do in a post — headings, code, images, lists, quotes, and more."
 tags: ["demo", "guide"]
 epigraph: "The best way to learn the format is to see it all in one place."
-coverImage: "/images/posts/demo/hero.svg"
+coverImage: "/images/posts/demo/hero.jpg"
 ---
 
 This post demonstrates every feature available when writing for A2/5. Use it as a reference.
@@ -39,7 +39,7 @@ Ordered:
 
 Inline images work with standard markdown syntax:
 
-![A demo placeholder image](/images/posts/demo/inline.svg)
+![A demo placeholder image](/images/posts/demo/inline.jpg)
 
 Hero/cover images are set via the `coverImage` field in frontmatter and appear at the top of the post.
 
@@ -105,6 +105,22 @@ JSON:
   }
 }
 ```
+
+## Math (LaTeX)
+
+Inline math uses single dollar signs: $E = mc^2$ or $\theta \in [0, 2\pi]$.
+
+Display math uses double dollar signs and renders on its own line:
+
+$$
+\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+$$
+
+You can write more complex expressions too:
+
+$$
+\frac{d}{dx}\left( \int_{a}^{x} f(t)\, dt \right) = f(x)
+$$
 
 ## Horizontal rules
 

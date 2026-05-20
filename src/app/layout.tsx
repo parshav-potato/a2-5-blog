@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col">
         <header className="py-6">
           <div className="max-w-2xl mx-auto px-5 flex items-center justify-between">
-            <Link href="/" className="text-[var(--color-heading)] font-semibold text-lg !no-underline hover:!no-underline">
+            <Link href="/" className="logo-link">
               A2/5
             </Link>
             <nav className="flex gap-5 text-sm">

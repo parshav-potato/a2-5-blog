@@ -3,7 +3,9 @@ import path from "path";
 import matter from "gray-matter";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
+import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
+import rehypeKatex from "rehype-katex";
 import rehypeStringify from "rehype-stringify";
 import rehypePrettyCode from "rehype-pretty-code";
 
@@ -67,7 +69,9 @@ export async function getPostBySlug(slug: string): Promise<Post> {
 
   const result = await unified()
     .use(remarkParse)
+    .use(remarkMath)
     .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeKatex)
     .use(rehypePrettyCode, {
       theme: "nord",
       keepBackground: false,
